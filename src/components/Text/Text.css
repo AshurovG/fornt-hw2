@@ -1,0 +1,49 @@
+.title {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: 'ellipsis';
+    display: -webkit-box; 
+   -webkit-box-orient: vertical;
+    /* color: #000;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700; */
+}
+
+.title_max1 {
+    -webkit-line-clamp: 1;
+   line-clamp: 1;
+}
+
+.title_max2 {
+    -webkit-line-clamp: 2;
+   line-clamp: 2;
+}
+.title_max3 {
+    -webkit-line-clamp: 3;
+   line-clamp: 3;
+}
+.button {
+    color: #000;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.p-20 {
+    padding: 20px;
+}
+
+.p-18 {
+    padding: 18px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.p-14 {
+    padding: 14px;
+}

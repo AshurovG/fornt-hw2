@@ -1,0 +1,11 @@
+.dropdown{
+    height: 204px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--space-xxs, 20px);
+}
+.dropdown-options {
+    background-color: #ffffff;
+    display: flex;
+    padding: var(--space-s, 14px) var(--space-xs, 12px);
+}
